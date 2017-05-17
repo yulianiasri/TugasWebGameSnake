@@ -1,0 +1,88 @@
+/* || General setup */
+
+html, body {
+margin: 0;
+  padding: 0;
+  background: #fff url("gerak.gif") no-repeat top left;
+  background-size: cover;
+ 
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 40%;
+  min-width: 600px;
+  margin: 0 auto;
+  font-family: Commons;
+  padding:left;
+}
+
+/* || typography */
+
+
+h1 {
+   font-size: 39px;
+  text-align: left;
+  margin-bottom: -1%;
+  color: #FF1493;
+}
+
+h4 {
+  font-size: 2rem;
+  text-align: left;
+  color:ff0000;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+   text-align:center;
+  margin-bottom: -1%;
+ color:#FF1493;
+}
+h2 {
+  font-size: 2rem;
+ color:#FF1493;
+  
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+/* Action buttons */
+.button {
+  display: inline;
+  position: relative;
+  color: #ff0000;
+  width: 30%;
+  height: 30%;
+  float: left;
+  bottom: 10em;
+  left: 5%;
+  margin-bottom: 0.313em;
+  background-color: #c0c0c0;
+  box-shadow: 0 0 3px 1px #1F213A;
+  border-radius: 1.25em;
+  text-align: center;
+  line-height: 2;
+
+  cursor: pointer;
+}
+
+.button:hover { text-decoration: none;
+color: #FFFF00; }
+
+.utama{
+text-decoration:none;
+margin-top:20%;
+ text-align: left;
+  margin-bottom: -1%;
+}
+.header h1{
+text-align:center;
+}
